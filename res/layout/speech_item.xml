@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/asker_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="你好"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvAsk"
+        android:layout_margin="5dp"
+        android:background="@drawable/answer_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="你也好"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+</RelativeLayout>
